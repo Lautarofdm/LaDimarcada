@@ -1,0 +1,20 @@
+.mainnosotros{
+    .almacen{
+        margin: 5px;
+        width: 400px;
+        height: 50vh;
+    }
+    .ubicacion{
+        margin: 5px 0px 5px 0px;
+    padding: 5px;
+    }
+    .ubicolortamanio{
+        width: 50vw;
+        background-image: linear-gradient(to top,rgba(0, 0, 0, 0.568), rgba(31, 30, 30, 0.89));
+    }
+    h1{
+        @extend %titulos;
+    @include fontStyle (white);
+    }
+   
+}

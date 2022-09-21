@@ -1,0 +1,11 @@
+%titulos{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+//mixin
+@mixin fontStyle ($titulo){
+    background-color: gray;
+    color: white;
+
+}
