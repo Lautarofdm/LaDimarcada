@@ -1,0 +1,24 @@
+.headerlegal{
+display: flex;
+flex-direction: column;
+
+align-items: center;
+li{
+    
+    list-style:none ;
+    a{
+        text-decoration: none;
+        color: black
+    }
+}
+}
+
+.mainlegal{
+    h1{
+        @extend %titulos;
+    @include fontStyle (white);
+    }
+    .plegal{
+        
+}
+}

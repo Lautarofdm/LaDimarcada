@@ -2,11 +2,9 @@
     .almacen{
         margin: 5px;
         width: 400px;
-        height: 50vh;
+        height: 40vh;
     }
     .ubicacion{
-        margin: 5px 0px 5px 0px;
-    padding: 5px;
     }
     .ubicolortamanio{
         width: 50vw;
@@ -15,6 +13,9 @@
     h1{
         @extend %titulos;
     @include fontStyle (white);
+    }
+    .sobrenosotros{
+
     }
    
 }
