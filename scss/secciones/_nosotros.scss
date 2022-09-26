@@ -15,7 +15,9 @@
     @include fontStyle (white);
     }
     .sobrenosotros{
-
+        flex-wrap: wrap;
+padding-left: 2rem;
+padding-right: 2rem;
     }
    
 }

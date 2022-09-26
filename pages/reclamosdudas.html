@@ -13,6 +13,7 @@
     <!-- description -->
     <meta name="description" content="Decinos tu problema o duda asi te ayudamos">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/ladimarcada.png">
     <title>Reclamos-Dudas</title>
 </head>
 
@@ -23,7 +24,7 @@
     <nav class="navbar navbar-expand-lg fondoheaderandfooter">
         <div class="container-fluid">
             <a href="../index.html">
-            <img src="../img/logo-compragamer.png.opdownload" alt="logo">
+            <img src="../img/ladimarcada.png" alt="logo" class="logo">
         </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -60,14 +61,14 @@
                 <div><a href="./carritocompra.html"><img src="../img/carrito de compra.png" alt="carrito de compra" class="carrito"></a></div>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn " type="submit">Buscar</button>
+                    <button class="btn " type="submit"><img src="../img/lupa.png" alt="lupa" class="lupa"></button>
                 </form>
             </div>
         </div>
     </nav>
 </header>
 <!-- main -->
-<main class="d-flex justify-content-center mainnosotros">
+<main class="d-flex justify-content-center maincontacto">
     <div class="card col-md-5 p-3">
 <div class="mb-3">
     <h1><strong> Contacto</strong></h1>
@@ -92,9 +93,17 @@
             <input type="radio" name="Sexo" id="femenino" value="femenino">Femenino
             <input type="radio" name="Sexo" id="Otro" value="Otro">Otro
         </div>
+        <div>
+            <label for="start">Fecha de nacimiento</label>
+
+            <input type="date" id="start" name="trip-start"
+                   value="2018-07-22"
+                   min="1950-01-01" max="2021-12-31">
+        </div>
         <div class="mb-2">
             <button class="btn btn-primary">Enviar</button>
         </div>
+        
     </form>
 </div>
 </div>

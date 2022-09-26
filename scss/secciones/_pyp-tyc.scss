@@ -18,7 +18,9 @@ li{
         @extend %titulos;
     @include fontStyle (white);
     }
-    .plegal{
-        
+    p{
+    flex-wrap: wrap;
+    padding: 5rem;
+   margin-top: 1rem;
 }
 }

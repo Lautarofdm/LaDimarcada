@@ -7,7 +7,7 @@
 body {
   background-image: url(../img/fondo); }
 
-.mainnosotros h1, .maintienda h1, .mainlegal h1 {
+.mainnosotros h1, .maintienda h1, .mainlegal h1, .maincontacto h1 {
   text-align: center;
   font-family: sans-serif;
   font-size: 40px; }
@@ -28,6 +28,10 @@ header .carrito {
 header .lupa {
   width: 35px; }
 
+header .logo {
+  width: 9rem;
+  height: 7rem; }
+
 footer .fondoheaderandfooter {
   background-image: linear-gradient(to right, rgba(31, 30, 30, 0.89), rgba(0, 0, 0, 0.568)); }
 
@@ -43,6 +47,11 @@ footer .fondoheaderandfooter {
 .mainnosotros h1 {
   background-color: gray;
   color: white; }
+
+.mainnosotros .sobrenosotros {
+  flex-wrap: wrap;
+  padding-left: 2rem;
+  padding-right: 2rem; }
 
 .maintienda .colorcard {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.568), rgba(31, 30, 30, 0.89)); }
@@ -72,3 +81,15 @@ footer .fondoheaderandfooter {
 .mainlegal h1 {
   background-color: gray;
   color: white; }
+
+.mainlegal p {
+  flex-wrap: wrap;
+  padding: 5rem;
+  margin-top: 1rem; }
+
+.maincontacto {
+  padding-top: 6rem;
+  padding-bottom: 6rem; }
+  .maincontacto h1 {
+    background-color: gray;
+    color: white; }
