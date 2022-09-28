@@ -3,7 +3,7 @@ header{
         background-image: linear-gradient(to right, rgba(31, 30, 30, 0.89),rgba(0, 0, 0, 0.568));
     }
     .banner1{
-        width: 99,5vw;
+        width: 99vw;
 padding-top: 2px;
     }
     .carrito{
@@ -12,6 +12,10 @@ padding-top: 2px;
         height: 30px;
         margin: 5px;
     }
+    .carrito:hover{
+        width: 45px;
+        height: 40px;
+    }
     .lupa{
         width: 35px;
     }
@@ -19,9 +23,10 @@ padding-top: 2px;
         width: 9rem;
         height: 7rem;
     }
- li:hover{
-    
-    font-size: 25px;
-    color: red;
+ .navbar{
+    --bs-navbar-color: #e97c00bb;
  }
+ .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #e97c00bb;
+}
 }

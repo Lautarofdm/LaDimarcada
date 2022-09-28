@@ -16,7 +16,7 @@ header .fondoheaderandfooter {
   background-image: linear-gradient(to right, rgba(31, 30, 30, 0.89), rgba(0, 0, 0, 0.568)); }
 
 header .banner1 {
-  width: 99,5vw;
+  width: 99vw;
   padding-top: 2px; }
 
 header .carrito {
@@ -25,6 +25,10 @@ header .carrito {
   height: 30px;
   margin: 5px; }
 
+header .carrito:hover {
+  width: 45px;
+  height: 40px; }
+
 header .lupa {
   width: 35px; }
 
@@ -32,9 +36,11 @@ header .logo {
   width: 9rem;
   height: 7rem; }
 
-header li:hover {
-  font-size: 25px;
-  color: red; }
+header .navbar {
+  --bs-navbar-color: #e97c00bb; }
+
+header .navbar-nav .nav-link.active, header .navbar-nav .show > .nav-link {
+  color: #e97c00bb; }
 
 footer .fondoheaderandfooter {
   background-image: linear-gradient(to right, rgba(31, 30, 30, 0.89), rgba(0, 0, 0, 0.568)); }
@@ -56,6 +62,7 @@ footer .wsp:hover {
   height: 70px; }
 
 .mainnosotros .almacen {
+  flex-wrap: wrap;
   margin: 5px;
   width: 400px;
   height: 40vh; }
@@ -105,6 +112,22 @@ footer .wsp:hover {
   padding: 5rem;
   margin-top: 1rem; }
 
+.wsp {
+  position: fixed;
+  width: 55px;
+  height: 50px;
+  bottom: 30px;
+  right: 0;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px;
+  z-index: 2; }
+
+.wsp:hover {
+  width: 75px;
+  height: 70px; }
+
 .maincontacto {
   padding-top: 6rem;
   padding-bottom: 6rem; }
@@ -113,9 +136,9 @@ footer .wsp:hover {
     color: white; }
 
 .maincarrito img {
-  padding-top: 60px;
+  padding-top: 50px;
   padding-bottom: 4rem;
-  width: 50rem; }
+  width: 50%; }
 
 .maincarrito h1 {
   background-color: gray;
