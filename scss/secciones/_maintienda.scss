@@ -7,6 +7,9 @@
         display: flex;
         justify-content: space-around;
     }
+    .vermas{
+    padding:10px; 
+    }
     h1{
         @extend %titulos;
     @include fontStyle (white);

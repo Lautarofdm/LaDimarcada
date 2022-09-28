@@ -85,6 +85,9 @@ footer .wsp:hover {
   display: flex;
   justify-content: space-around; }
 
+.maintienda .vermas {
+  padding: 10px; }
+
 .maintienda h1 {
   background-color: gray;
   color: white; }
