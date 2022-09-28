@@ -8,9 +8,6 @@
     .ubicolortamanio{
         background-image: linear-gradient(to top,rgba(0, 0, 0, 0.568), rgba(31, 30, 30, 0.89));
     }
-    .cardubi{
-        padding-left: 35%
-    }
     h1{
         @extend %titulos;
     @include fontStyle (white);
