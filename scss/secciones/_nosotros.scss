@@ -2,12 +2,14 @@
     .almacen{
         flex-wrap: wrap;
         margin: 5px;
-        width: 400px;
+        width: 25%;
         height: 40vh;
     }
     .ubicolortamanio{
-        width: 50vw;
         background-image: linear-gradient(to top,rgba(0, 0, 0, 0.568), rgba(31, 30, 30, 0.89));
+    }
+    .cardubi{
+        padding-left: 35%
     }
     h1{
         @extend %titulos;
