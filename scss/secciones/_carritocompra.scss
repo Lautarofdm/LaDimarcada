@@ -1,0 +1,15 @@
+.maincarrito{
+    img{
+        padding-top: 60px;
+        padding-bottom: 4rem;
+        width: 50rem;
+    }
+    h1{
+        @extend %titulos;
+    @include fontStyle (white);
+    }
+    .tamaniocard{
+        width: 99vw;
+    }
+}
+

@@ -4,8 +4,6 @@
         width: 400px;
         height: 40vh;
     }
-    .ubicacion{
-    }
     .ubicolortamanio{
         width: 50vw;
         background-image: linear-gradient(to top,rgba(0, 0, 0, 0.568), rgba(31, 30, 30, 0.89));
@@ -15,9 +13,7 @@
     @include fontStyle (white);
     }
     .sobrenosotros{
-        flex-wrap: wrap;
-padding-left: 2rem;
-padding-right: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
     }
    
 }
